@@ -30,8 +30,8 @@ High-performance, edge-ready REST API and video streaming proxy service for vert
 ### 1. Installation
 
 ```bash
-git clone https://github.com/<your-username>/ai-drama-api.git
-cd ai-drama-api
+git clone https://github.com/<your-username>/dramabox-api.git
+cd dramabox-api
 npm install
 ```
 

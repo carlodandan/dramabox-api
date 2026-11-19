@@ -45,8 +45,8 @@ The codebase is engineered with a **pure API dual-runtime**:
 Clone the repository and install dependencies locally:
 
 ```bash
-git clone https://github.com/<your-username>/ai-drama-api.git
-cd ai-drama-api
+git clone https://github.com/<your-username>/dramabox-api.git
+cd dramabox-api
 npm install
 ```
 
@@ -92,7 +92,7 @@ Cloudflare Workers runs `_worker.js` globally at the edge without needing contai
 2. Open the **[Cloudflare Dashboard](https://dash.cloudflare.com/)**.
 3. Navigate to **Compute (Workers) > Workers & Pages > Create Application**.
 4. Select the **Workers** tab and choose **Connect to Git**.
-5. Select your repository `ai-drama-api`.
+5. Select your repository `dramabox-api`.
 6. Configure the build settings:
    - **Framework Preset**: None
    - **Build command**: *(leave empty)*
@@ -122,7 +122,7 @@ Vercel deploys the API as a serverless Node.js function using `api/index.js` and
    git push origin main
    ```
 2. Log in to [Vercel](https://vercel.com/) and click **Add New... > Project**.
-3. Import your `ai-drama-api` repository.
+3. Import your `dramabox-api` repository.
 4. In the Project Configuration:
    - **Framework Preset**: Other
    - **Root Directory**: `./`
@@ -132,7 +132,7 @@ Vercel deploys the API as a serverless Node.js function using `api/index.js` and
 6. Click **Deploy**.
 
 Vercel will detect `api/index.js` and `vercel.json`, deploy your serverless endpoint, and provide a URL such as:
-`https://ai-drama-api.vercel.app`
+`https://dramabox-api.vercel.app`
 
 ### Method B: Deploy via Vercel CLI
 
